@@ -12,7 +12,7 @@ insert into person values (18, 'Frank', 39, 'male', 'Saint-Petersburg');
 insert into person values (19, 'Diane', 15, 'female', 'Kemerovo');
 insert into person values (20, 'Carol', 22, 'female', 'Samara');
 ```
-![](1.png)
+![](./1.png)
 ```
 insert into pizzeria values (7,'Pizzeria Stokey', 3.9);
 insert into pizzeria values (8,'Voodoo Rays', 4.4);
