@@ -320,6 +320,7 @@ where courseid = (select courseid from courses where coursename = 'Истори�
 ```sql
 select coursename, (select count(studentid) from studentcourses where c.courseid = studentcourses.courseid) from courses c;
 ```
+Вложенный запрос приравнивает значения из двух таблиц для подсчета количества студентов
 
 ##  Вывести средний возраст студентов
 
